@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane fx:id="vp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainViewController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="166.0" style="-fx-background-color: #0D1824;" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#registroLibros" prefHeight="50.0" prefWidth="168.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Registro de Libros" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#registroUsuarios" prefHeight="59.0" prefWidth="171.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Registro de Usuarios" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#prestamoLibros" prefHeight="60.0" prefWidth="174.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Prestamos de Libros" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#devolucionLibros" prefHeight="56.0" prefWidth="196.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Devolucion de Libros" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#busquedaLibros" prefHeight="62.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Busqueda de Libros" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#gestionarUsuario" prefHeight="62.0" prefWidth="184.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Gestionar usuario" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" onMouseClicked="#consultarTransacciones" prefHeight="62.0" prefWidth="192.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Consulta de transacciones" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <AnchorPane fx:id="ap" prefHeight="400.0" prefWidth="437.0" style="-fx-background-color: #14282B;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="141.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro de libros" wrappingWidth="117.13671875">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
